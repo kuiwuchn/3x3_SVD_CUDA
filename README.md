@@ -4,7 +4,9 @@ Fast CUDA 3x3 SVD
 This is the part of code of 
 
 Ming Gao*, Xinlei Wang*, Kui Wu* (joint first authors), Andre Pradhana, Eftychios Sifakis, Cem Yuksel, Chenfanfu Jiang
+
 GPU Optimization of Material Point Methods
+
 ACM Transactions on Graphics (SIGGRAPH ASIA 2018), to appear.
 
 It will produce the same result as 
