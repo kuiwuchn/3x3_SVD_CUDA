@@ -21,7 +21,7 @@ The actual CUDA SVD code can be found in [svd3_cuda.h](https://github.com/kuiwuc
 
 ## Performance
 
-Our GPU implementation takes about 0.37 ns per 3x3 SVD on Nvidia Titan Xp, whilte a AVX512 SVD implementation of \[1\] takes about 2.3 ns and implicit symmetric QR SVD\[2\] takes 17.0 ns on an 18-cores Intel(R) Xeon(R) Gold 6140 CPU with multithreading.
+Our GPU implementation takes 0.37 ns per 3x3 SVD on Nvidia Titan Xp, while a AVX512 SVD implementation of \[1\] takes 2.3 ns and implicit symmetric QR SVD\[2\] takes 17.0 ns on an 18-cores Intel(R) Xeon(R) Gold 6140 CPU with multithreading.
 
 ## BibTex 
 
