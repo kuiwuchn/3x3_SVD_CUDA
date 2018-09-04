@@ -14,6 +14,7 @@ It will produce the same result as “[Computing the Singular Value Decompositio
 Though we only provide Visual Studio 2015 *.sln, the code doesn't depend on any external library. 
 
 Uncomment to VERIFY_RESULTS to verify the resule with CPU version.
+
 Uncomment/comment to use Structure of Arrays or Array of structures for matrix attributes.
 
 The actual CUDA SVD code can be found in [svd3_cuda.h](https://github.com/kuiwuchn/3x3_SVD_CUDA/blob/master/svd3x3/svd3x3/svd3_cuda.h).
