@@ -19,6 +19,10 @@ Uncomment/comment to use Structure of Arrays or Array of structures for matrix a
 
 The actual CUDA SVD code can be found in [svd3_cuda.h](https://github.com/kuiwuchn/3x3_SVD_CUDA/blob/master/svd3x3/svd3x3/svd3_cuda.h).
 
+## Performance
+
+Our GPU implementation takes about 0.37 ns per 3x3 SVD on Nvidia Titan Xp, whilte a AVX512 SVD implementation of \[1\] takes about 2.3 ns and implicit symmetric QR SVD\[2\] takes 17.0 ns on an 18-cores Intel(R) Xeon(R) Gold 6140 CPU with multithreading.
+
 ## BibTex 
 
 Please cite the following paper if it helps. 
@@ -34,3 +38,9 @@ Please cite the following paper if it helps.
  note         = {(*Joint First Authors), to appear},
 }  
 ```
+
+## Refernce
+
+\[1\] A. McAdams, A. Selle, R. Tamstorf, J. Teran and E. Sifakis, “Computing the Singular Value Decomposition of 3x3 matrices with minimal branching and elementary floating point operations”, University of Wisconsin - Madison technical report TR1690, May 2011
+
+\[2\] Implicit-shifted Symmetric QR Singular Value Decomposition of 3x3 Matrices, Theodore Gast, C. Fu, Chenfanfu Jiang, Joseph Teran, UCLA Mathematics Department Technical Report (CAM16-19, 2016) 
