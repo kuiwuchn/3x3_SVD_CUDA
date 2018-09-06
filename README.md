@@ -14,7 +14,7 @@ It will produce the same result as “[Computing the Singular Value Decompositio
 
 ## How to use 
 
-Though we only provide Visual Studio 2015 *.sln, the code doesn't depend on any external library. 
+Though we only provide Visual Studio 2015 *.sln for Windows and cmakelist.txt for Linux, the code doesn't depend on any external library. 
 
 Uncomment to VERIFY_RESULTS to verify the resule with CPU version.
 
