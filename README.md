@@ -22,6 +22,8 @@ Uncomment/comment to use Structure of Arrays or Array of structures for matrix a
 
 The actual CUDA SVD code can be found in [svd3_cuda.h](https://github.com/kuiwuchn/3x3_SVD_CUDA/blob/master/svd3x3/svd3x3/svd3_cuda.h).
 
+**Copy Dataset_1M.txt file to executable directory**
+
 ## Performance
 
 Our GPU implementation takes 0.37 ns per 3x3 SVD on Nvidia Titan Xp, while a AVX512 SVD implementation of \[1\] takes 2.3 ns and implicit symmetric QR SVD\[2\] takes 17.0 ns on an 18-cores Intel(R) Xeon(R) Gold 6140 CPU with multithreading.
