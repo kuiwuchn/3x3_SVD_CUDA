@@ -9,7 +9,7 @@ include_directories(svd3x3
 	)
 link_directories("C:/SDKs/cuda/v9.2/Toolkit/lib/x64")
 
-find_package(cuda REQUIRED)
+find_package(CUDA REQUIRED)
 cuda_add_executable(svd3x3
 	svd3x3/kernel.cu)
 target_link_libraries(svd3x3
